@@ -60,10 +60,12 @@ td,th{
 body{
     padding:0;
     margin:0;
-    font-family:Open Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
-    font-size:16px;
-    line-height:1.5;
-    color:#606c71
+    color: #24292e;
+    line-height: 1.5;
+    font-family: "Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 14px;    
+    background-color: #fff;
+   
 }
 
 a:hover{
@@ -111,6 +113,102 @@ span.highlight{
     background-color:hsla(0,0%,100%,.2);
     border-color:hsla(0,0%,100%,.3)
 }
+.p-responsive {
+    padding-right: 16px !important;
+    padding-left: 16px !important;
+}
+.list-style-none {
+    list-style: none !important;
+}
+.d-flex {
+    display: flex !important;
+}
+.flex-items-center {
+    align-items: center !important;
+}
+.flex-justify-between {
+    justify-content: space-between !important;
+}
+.header-logo-invertocat {
+    margin: -1px 15px -1px -2px;
+    color: #fff;
+    white-space: nowrap;
+}
+.header-logo-invertocat .octicon-mark-github {
+    float: left;
+}
+svg:not(:root) {
+    overflow: hidden;
+}
+.octicon {
+    vertical-align: text-bottom;
+}
+.octicon {
+    display: inline-block;
+    vertical-align: text-top;
+    fill: currentColor;
+}
+.mt-1 {
+    margin-top: 4px !important;
+}
+.btn-link {
+    display: inline-block;
+    padding: 0;
+    font-size: inherit;
+    color: #0366d6;
+    text-decoration: none;
+    white-space: nowrap;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.container-lg {
+    max-width: 1012px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.no-underline {
+    text-decoration: none !important;
+}
+
+.text-bold {
+    font-weight: 600 !important;
+}
+.text-white {
+    color: #fff !important;
+}
+.text-gray {
+    color: #586069 !important;
+}
+@media (min-width: 768px){
+.f4 {
+    font-size: 16px !important;
+}
+}
+@media (min-width: 1012px){
+    .d-lg-none {
+        display: none !important;
+    }
+    }
+@media (min-width: 1012px){
+.d-lg-flex {
+    display: flex !important;
+}
+}
+@media (min-width: 1012px){
+.p-responsive {
+    padding-right: 16px !important;
+    padding-left: 16px !important;
+}
+}
+
 @media screen and (min-width:64em){
     .btn{
         padding:.75rem 1rem
@@ -120,101 +218,6 @@ span.highlight{
     .btn{
         padding:.6rem .9rem;
         font-size:.9rem
-    }
-}
-
-.main-content{
-    padding:20px 0
-}
-.main-content :first-child{
-    margin-top:0
-}
-.main-content img{
-    max-width:100%
-}
-.main-content h1,.main-content h2,.main-content h3,.main-content h4,.main-content h5,.main-content h6{
-    margin-top:2rem;
-    margin-bottom:1rem;
-    font-weight:700;
-    color:#22a9b6
-}
-.main-content p{
-    margin-bottom:1em
-}
-.main-content code{
-    font-size:.9rem
-}
-.main-content ol,.main-content ul{
-    margin-top:0
-}
-.main-content blockquote{
-    padding:0 1rem;
-    margin-left:0;
-    color:#819198;
-    border-left:.3rem solid #dce6f0
-}
-.main-content blockquote>:first-child{
-    margin-top:0
-}
-.main-content blockquote>:last-child{
-    margin-bottom:0
-}
-.main-content table{
-    display:block;
-    width:100%;
-    font-size:.875rem;
-    overflow:auto;
-    word-break:normal;
-    word-break:keep-all
-}
-.main-content table th{
-    font-weight:700
-}
-.main-content table td,.main-content table th{
-    padding:.5rem 1rem;
-    border:1px solid #e9ebec
-}
-.main-content table tr.section{
-    font-size:.75rem;
-    font-weight:700
-}
-.main-content dl{
-    padding:0
-}
-.main-content dl dt{
-    padding:0;
-    margin-top:1rem;
-    font-size:1rem;
-    font-weight:700
-}
-.main-content dl dd{
-    padding:0;
-    margin-bottom:1rem
-}
-.main-content hr{
-    height:2px;
-    padding:0;
-    margin:1rem 0;
-    background-color:#eff0f1;
-    border:0
-}
-@media screen and (min-width:64em){
-    .main-content{
-        max-width:82rem;
-        margin:0 auto;
-        font-size:1.1rem
-    }
-}
-@media screen and (min-width:42em) and (max-width:64em){
-    .main-content{
-        padding:2rem 4rem;
-        font-size:1.1rem
-    }
-}
-@media screen and (max-width:42em){
-    .main-content{
-        padding:2rem 1rem;
-        font-size:1rem
     }
 }
 

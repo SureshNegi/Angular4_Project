@@ -10,7 +10,8 @@ import {UsernameValidator} from './shared/username-email-validator';
 import { MyTableComponent } from './components/my-table/my-table.component';
 import { TblColumnComponent } from './components/tbl-column/tbl-column.component';
 import { Routes, RouterModule } from '@angular/router';
-import { Form1Component } from './components/form-demo/user-registeration/form1/form1.component';
+import { UserWelcomeComponent } from './components/wecome-user/wecomeUser.component';
+import { SignupComponent} from './components/shared/signup/signup.component';
 import { SharedService } from './services/shared'
 const routes: Routes = [
   { path: 'lazy', loadChildren: './lazy.module#LazyModule'}
@@ -20,7 +21,7 @@ const routes: Routes = [
     AppComponent,
     SmarttableExampleComponent,
     NgprimeTableExampleComponent,    
-    MyTableComponent, TblColumnComponent, Form1Component
+    MyTableComponent, TblColumnComponent, UserWelcomeComponent,SignupComponent
   ],
   imports: [
     

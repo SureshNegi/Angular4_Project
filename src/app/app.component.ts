@@ -9,10 +9,10 @@ export class AppComponent implements OnInit {
   title = 'app';
   cities=[];
   constructor(){
-    alert('app-component')
+    //alert('app-component')
   }
   ngOnInit() {
-    alert("init app-component");
+    //alert("init app-component");
     this.cities.push({id:1,city:'Delhi',country:'India'});
     
     this.cities.push({id:2,city:'Dehradun',country:'India'});
