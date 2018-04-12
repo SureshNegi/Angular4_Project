@@ -12,6 +12,7 @@ import { TblColumnComponent } from './components/tbl-column/tbl-column.component
 import { Routes, RouterModule } from '@angular/router';
 import { UserWelcomeComponent } from './components/wecome-user/wecomeUser.component';
 import { SignupComponent} from './components/shared/signup/signup.component';
+import { SigninComponent } from './components/shared/signin/signin.component'
 import { SharedService } from './services/shared';
 import { AppRoutingModule } from './/app-routing.module'
 const routes: Routes = [
@@ -22,7 +23,7 @@ const routes: Routes = [
     AppComponent,
     SmarttableExampleComponent,
     NgprimeTableExampleComponent,    
-    MyTableComponent, TblColumnComponent, UserWelcomeComponent,SignupComponent
+    MyTableComponent, TblColumnComponent, UserWelcomeComponent,SignupComponent,SigninComponent
   ],
   imports: [
     
