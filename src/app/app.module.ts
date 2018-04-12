@@ -12,7 +12,8 @@ import { TblColumnComponent } from './components/tbl-column/tbl-column.component
 import { Routes, RouterModule } from '@angular/router';
 import { UserWelcomeComponent } from './components/wecome-user/wecomeUser.component';
 import { SignupComponent} from './components/shared/signup/signup.component';
-import { SharedService } from './services/shared'
+import { SharedService } from './services/shared';
+import { AppRoutingModule } from './/app-routing.module'
 const routes: Routes = [
   { path: 'lazy', loadChildren: './lazy.module#LazyModule'}
 ];
@@ -30,7 +31,8 @@ const routes: Routes = [
     FormsModule,
     ReactiveFormsModule,
     Ng2SmartTableModule,
-    DataTableModule
+    DataTableModule,
+    AppRoutingModule
      
   ],
   providers: [UsernameValidator,SharedService],
